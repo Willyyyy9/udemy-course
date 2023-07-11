@@ -3,7 +3,10 @@ import 'package:flutter/material.dart';
 
 TextStyle _getTextStyle(double fontSize, FontWeight fontWeight, Color color) {
   return TextStyle(
-      fontFamily: FontConstant.fontFamily, fontSize: fontSize, color: color);
+      fontFamily: FontConstant.fontFamily,
+      fontSize: fontSize,
+      color: color,
+      fontWeight: fontWeight);
 }
 
 // Regular Style
